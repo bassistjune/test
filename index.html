@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=1280">
+    <title>SUBWAY | 가맹신청·문희</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <link rel="shortcut icon" href="/path/faviconimagename.ico">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SUBWAY 써브웨이">
+    <meta property="og:url" content="http://ossamuiux.com/subway/">
+    <meta property="og:image" content="http://ossamuiux.com/subway/subway_og.png">
+    <meta property="og:description" content="신선하고 건강한 글로벌 NO.1 샌드위치 브랜드, 써브웨이">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            
+        </header>
+        <div id="container" class="sub_container">
+            <ul class="sub_header">
+                <li><a href="#">써브웨이 프랜차이즈</a></li>
+                <li><a href="#">가맹관련FAQ</a></li>
+                <li class="on"><a href="#">가맹신청ㆍ문의</a></li>
+                <li><a href="#">지사안내</a></li>
+                <li><a href="#">사업설명회</a></li>
+            </ul>
+            <div class="contents">
+                <div class="contents_inner">
+                    <h2 class="tit_wrap">가맹신청ㆍ문의</h2>
+                    <form class="form_wrap clearfix">
+                        <fieldset>
+                            <legend>가맹신청 및 문의용 폼</legend>
+                            <div class="agree_wrap L">
+                                <h3 class="sub_tit_wrap">개인정보수집 및 이용동의</h3>
+                                <textarea class="agree_t">■ 개인정보의 수집 및 이용목적&#10;서비스 이용에 따른 가입 의사 확인, 연령확인, 불만처리 등 민원처리, 고지사항 전달 (민원처리를 위해 해당 매장 및 매장 담당 지사에 성함 및 연락처가 전달될 수 있음을 알려드립니다.)&#10;&#10;■ 개인정보의 수집 항목&#10;이름,이메일,연락처 및 개인정보처리방침에서 명시한 자동으로 수집되는 정보&#10;&#10;■ 개인정보의 보유 및 이용기간&#10;원칙적으로, 개인정보 수집 및 이용목적이 달성된 후(회원 탈퇴 등)에는 귀하의 개인정 보를 지체 없이 파기합니다. 단,관계법령의 규정에 의하여 보존할 필요가 있는 경우 회 사는 아래와 같이 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다.&#10;- 계약 또는 청약철회 등에 관한 기록 : 5년 (전자상거래등에서의 소비자보호에 관한 법률)&#10;- 소비자의 불만 또는 분쟁처리에 관한 기록 : 3년 (전자상거래등에서의 소비자보호에 관한 법률)
+                                </textarea>
+                                <div class="checked_wrap">
+                                    <input class="agree_chk" type="checkbox" id="agreechk">
+                                    <label class= "agreechked" for="agreechk"></label><p>개인정보 수집 및 이용에 동의합니다.<strong>(필수)</strong></p>
+                                </div>
+                            </div>
+                            <div class="agree_wrap R">
+                                <h3 class="sub_tit_wrap">개인정보 위탁동의</h3>
+                                <textarea class="agree_t">회사는 서비스의 향상을 위하여 아래와 같이 외부 전문업체를 통하여 업무를 위탁하여 운영하고 있습니다. 위탁 업무를 위해 제공되는 정보는 해당 업무를 위해 필요한 최소 한의 정보만 제공됩니다.&#10;&#10;- 데이터 전산 처리 및 유지관리 : Wylie.Co.Ltd, IMT Soft Corporation&#10;- 결제 처리업체 : Fiserv&#10;- 고객 경험 관리 서비스 제공, 써브카드 프로그램 및 마케팅 관리 : 써브카드 코리아,IPCA, Simplicity Australasia Ltd&#10;- 고객센터 운영 : 씨엔티테크 ㈜
+                                </textarea>
+                                <div class="checked_wrap">
+                                    <input class="agree_chk2" type="checkbox" id="agreechk2">
+                                    <label class= "agreechked2" for="agreechk2"></label><p>개인정보 수집 및 이용에 동의합니다.<strong>(필수)</strong></p>
+                                </div>
+                            </div>
+                            <div class="write_qna_wrap">
+                                <h4 class="btm_tit">문의 작성하기</h4>
+                                <p>필수입력사항</p>
+                                <table class="qna_table">
+                                    <caption>입력폼 테이블</caption>
+                                    <colgroup>
+                                        <col width="130px">
+                                        <col width="898px">
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <th>이름<span></span></th>
+                                            <td>
+                                                <input class="info_txt name" type="text" placeholder="이름을 입력해주세요">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>연락처<span></span></th>
+                                            <td>
+                                                <input class="info_txt phone" type="text" placeholder="연락 가능한 전화번호를 입력해주세요">
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <th>이메일<span></span></th>
+                                            <td>
+                                                <input class="email_id short" type="text" placeholder="이메일"><span class="mail_mid">@</span><input class="email_add  short" type="text">
+                                                <div class="select_other mail_select">
+                                                    <select class="select_inner s_mail" >
+                                                        <option value>직접입력</option>
+                                                        <option value="1">naver.com</option>
+                                                        <option value="2">hanmail.com</option>
+                                                        <option value="3">hotmail.com</option>
+                                                        <option value="4">nate.com</option>
+                                                        <option value="5">empas.com</option>
+                                                        <option value="6">dreamwiz</option>
+                                                        <option value="7">lycos.com</option>
+                                                        <option value="8">korea.com</option>
+                                                        <option value="9">gmail.com</option>
+                                                        <option value="10">hanmir.com</option>
+                                                    </select>
+                                                </div>
+                                            </td>
+                                        </tr>    
+                                        <tr>
+                                            <th>지역<span></span></th>
+                                            <td>
+                                                <div class="select_other">
+                                                    <select class="select_inner add_l">
+                                                        <option value>시/도</option>
+                                                        <option value="1">서울특별시</option>
+                                                        <option value="2">경기도</option>
+                                                        <option value="3">인천광역시</option>
+                                                        <option value="4">대전광역시</option>
+                                                        <option value="5">세종특별자치시</option>
+                                                        <option value="6">충청남도</option>
+                                                        <option value="7">경상남도</option>
+                                                        <option value="8">울산광역시</option>
+                                                        <option value="9">부산광역시</option>
+                                                        <option value="10">대구광역시</option>
+                                                        <option value="11">제주특별자치도</option>
+                                                        <option value="12">전라북도</option>
+                                                        <option value="13">충청북도</option>
+                                                        <option value="14">광주광역시</option>
+                                                        <option value="15">전라남도</option>
+                                                        <option value="16">경상북도</option>
+                                                        <option value="17">대구광역시</option>
+                                                        <option value="18">강원도</option>
+                                                    </select>
+                                                </div>
+                                                <div class="select_other">
+                                                    <select class="select_inner add_det">
+                                                        <option value>시/군/구</option>
+                                                    </select>
+                                                </div>    
+                                            </td>
+                                        </tr>    
+                                        <tr>
+                                            <th>제목<span></span></th>
+                                            <td>
+                                                <input class="info_txt title_qna" type="text" placeholder="제목을 입력해주세요.">
+                                            </td>
+                                        </tr>    
+                                        <tr>
+                                            <th class="th_top">내용<span></span></th>
+                                            <td>
+                                                <textarea class="info_main_text" placeholder="가맹점 신청과 관련된 문의사항을 작성해 주세요.&#10;문의하실 내용을 구체적으로 작성해 주시면 더욱 빠르고 정확한 답변을 드릴 수 있습니다. "></textarea>
+                                            </td>
+                                        </tr>           
+                                        <tr>
+                                            <th>첨부파일</th>
+                                            <td>
+                                                <div class="file_wrap">
+                                                    <input class="file_name" type="text">
+                                                    <label>
+                                                        파일선택<input type="file" readonly>
+                                                    </label>
+                                                </div>
+                                                <span class="upload_txt">※등록 가능 확장자 : pdf,docx,pptx,xlsx,jpg,jpeg,gif,png / 최대 5MB
+                                                </span>
+                                            </td>
+                                        </tr>    
+                                        <tr>
+                                            <td colspan="2">
+                                                <span class="last_agreel">신청·문의사항에 대한 답변은 메일로 발송됩니다.            동의하시겠습니까?    
+                                                </span>
+                                                <span class="last_agreer">
+                                                    <input class="agree_chk3" type="checkbox" id="agreechk3">
+                                                    <label class= "agreechked3" for="agreechk3"></label><p>예, 동의합니다.</p>
+                                                </span>   
+                                            </td>
+                                        </tr>    
+                                    </tbody>    
+                                </table>
+                                <ul class="notice_bottom">
+                                    <li>
+                                        <span>!</span>
+                                    </li>
+                                    <li>
+                                        <p>· 문의가 집중되거나 주말의 경우 답변이 지연될 수 있습니다. 최대한 빠르게 답변 드리도록 하겠습니다.</p>
+                                        <p>· 욕설, 비속어, 비방성 등의 부적절한 단어 포함되어 있는 경우, 답변 진행이 어려울 수 있습니다.
+                                        </p>
+                                    </li>
+                                </ul>
+                                <div class="complete_btn_wrap">
+                                    <button class="cancel_btn btn_bottom" type="button">취소</button>
+                                    <button class="complete_btn btn_bottom" type="button">등록하기</button>
+                                </div>
+                            </div>   
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            
+        </footer>
+    </div>
+
+    <script>
+
+        var fileTarget = $('.file_wrap input[type="file"]');
+
+        fileTarget.on('change', function() { // 값이 변경되면
+            if(window.FileReader) { // modern browser
+                var filename = $(this)[0].files[0].name; 
+            } else { // old IE var
+                filename = $(this).val().split('/').pop().split('\\').pop(); // 파일명만 추출
+            } // 추출한 파일명 삽입
+
+            $(this).parent().prev().val(filename);
+        });
+    </script>            
+
+</body>
+</html>
